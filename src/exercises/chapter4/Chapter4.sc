@@ -83,3 +83,26 @@ def getJavaCalendarDays(): Map[String, Int] = {
 
 println(getJavaCalendarDays())
 
+//7
+def getJavaSystemProperties(): List[String] = {
+  import scala.collection.JavaConversions.propertiesAsScalaMap
+  val props: scala.collection.Map[String, String] = System.getProperties()
+  val maxKey = props.keys.maxBy(s => s.length).length
+  (for ((key, value) <- props) yield (key.padTo(maxKey, " ").mkString + "| " + value)).toList
+
+}
+println(getJavaSystemProperties().mkString("\n"))
+
+//8
+def minmax(arr: Array[Int]): (Int, Int) = (arr.min, arr.max)
+
+println(minmax(Array(1,2,3,4,5)))
+
+//9
+def lteqgt(values: Array[Int], v: Int): (Int, Int, Int) =
+  (values.count(_ < v), values.count(_ == v), values.count(_ > v))
+println(lteqgt(Array(1,2,3,3,3,4,5), 3))
+
+//10
+"Hello".zip("World")
+
