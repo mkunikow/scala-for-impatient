@@ -1,20 +1,20 @@
-package exercises.Chapter8
+package exercises.chapter8
 
 /**
  * Created by michal on 11/12/14.
  */
 
 
-class Person(val name: String) {
-  override def toString = getClass.getName + "[name=" + name + "]"
-}
+object MainE8 extends App{
 
-class SecretAgent(codename: String) extends Person(codename) {
-  override val name = "secret" // Don't want to reveal name...
-  override val toString = "secret" //... or class name
-}
+  class Person(val name: String) {
+    override def toString = getClass.getName + "[name=" + name + "]"
+  }
 
-object maine8 extends App{
+  class SecretAgent(codename: String) extends Person(codename) {
+    override val name = "secret" // Don't want to reveal name...
+    override val toString = "secret" //... or class name
+  }
   println(new SecretAgent("James Bond"))
 }
 

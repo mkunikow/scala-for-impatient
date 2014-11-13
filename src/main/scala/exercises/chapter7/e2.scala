@@ -1,4 +1,4 @@
-package exercises.Chapter7
+package exercises.chapter7
 
 /**
  * Created by michal on 11/10/14.
@@ -9,7 +9,4 @@ package toplevel {
   package com.horstmann.impatient {
 
   }
-}
-object e2main extends App {
-
 }

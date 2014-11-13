@@ -1,4 +1,4 @@
-package exercises.Chapter7
+package exercises.chapter7
 
 /**
  * Created by michal on 11/10/14.
@@ -37,8 +37,3 @@ package com.horstmann.impatient {
 }
 
 
-
-object main extends App {
-
-
-}

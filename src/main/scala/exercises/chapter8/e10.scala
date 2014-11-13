@@ -1,4 +1,4 @@
-package exercises.Chapter8
+package exercises.chapter8
 
 /**
  * Created by michal on 11/12/14.
