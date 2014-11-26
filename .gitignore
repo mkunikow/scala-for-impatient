@@ -19,3 +19,11 @@ submission/
 .idea
 *.iml
 out/
+
+#sbt
+/RUNNING_PID
+/logs/
+/project/*-shim.sbt
+/project/project/
+/project/target/
+/target/
