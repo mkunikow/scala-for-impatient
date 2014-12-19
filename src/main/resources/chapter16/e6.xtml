@@ -1,0 +1,18 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>
+        Wikibooks
+    </title>
+</head>
+<body>
+<img src="img1.jpg"/>
+<img src="img2.jpg"/>
+<a href="http://www.w3.org/2008/WebVideo/">Video in the Web Activity</a>
+<p>
+    Wikibooks is a great website.
+</p>
+<img alt="TODO" src="hamster.jpg"/>
+<a href="http://lists.w3.org/Archives/Public/w3c-wai-ig/2014OctDec/0220.html" title="WAI-ARIA announcements December 2014">call for review e-mail</a>
+<a href="http://www.w3.org/WAI/">Web Accessibility Initiative (WAI)</a>
+</body>
+</html>
