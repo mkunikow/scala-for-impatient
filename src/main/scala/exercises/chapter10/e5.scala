@@ -6,7 +6,7 @@ import java.awt.Point
 /**
  * Created by michal on 11/16/14.
  */
-object  MainE5 extends App {
+object e5 extends App {
 
   trait PropertyChangepcsLike {
     private val pcs = new PropertyChangeSupport(this);

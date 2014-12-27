@@ -3,7 +3,7 @@ package exercises.chapter10
 /**
  * Created by michal on 11/15/14.
  */
-object MainE4 extends App {
+object e4 extends App {
 
   /**
    * Code taken from http://rosettacode.org/wiki/Caesar_cipher#Scala

@@ -5,7 +5,7 @@ import java.io.{InputStream, FileInputStream}
 /**
  * Created by michal on 11/17/14.
  */
-object  MainE8 extends App {
+object  e8 extends App {
 
   trait BufferedInputStreamTrait {
 

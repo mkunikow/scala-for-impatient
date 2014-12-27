@@ -4,7 +4,7 @@ package exercises.chapter10
  * Created by michal on 11/15/14.
  */
 
-object MainE1 extends App {
+object e1 extends App {
 
   trait RectangleLike {
     def getX: Double

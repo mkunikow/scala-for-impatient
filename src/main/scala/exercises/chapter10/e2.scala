@@ -4,7 +4,7 @@ package exercises.chapter10
  * Created by michal on 11/15/14.
  */
 
-object MainE2 extends App{
+object e2 extends App{
   import java.awt.Point
 
   class OrderedPoint(x: Int, y:Int) extends Point(x, y) with math.Ordered[OrderedPoint] {

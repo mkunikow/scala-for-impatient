@@ -5,7 +5,7 @@ import java.io.{FileInputStream, InputStream}
 /**
  * Created by michal on 11/18/14.
  */
-object MainE10 extends App {
+object e10 extends App {
   trait IterableInputStream extends InputStream with Iterable[Byte] {
 
     class InputStreamIterator(inputStream: InputStream) extends Iterator[Byte] {

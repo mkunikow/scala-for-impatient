@@ -5,7 +5,7 @@ import java.io.{FileInputStream, InputStream}
 /**
  * Created by michal on 11/18/14.
  */
-object MainE9 extends App {
+object e9 extends App {
   trait Logger {
     def log(msg: String)
   }

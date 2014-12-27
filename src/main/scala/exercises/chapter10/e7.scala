@@ -3,7 +3,7 @@ package exercises.chapter10
 /**
  * Created by michal on 11/16/14.
  */
-object MainE7 extends App {
+object e7 extends App {
 
   trait Performance {
     def perform(performance: String = "") = {printf(performance)}
