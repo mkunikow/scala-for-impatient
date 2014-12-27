@@ -4,7 +4,7 @@ package exercises.chapter18
  * Created by michal on 12/26/14.
  *
  */
-class e9 extends App {
+object e9 extends App {
   abstract class Dim[T](val value: Double, val name: String) {
     protected def create(v: Double): T
     def +(other: Dim[T]) = create(value + other.value)
